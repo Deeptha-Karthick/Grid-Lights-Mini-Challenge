@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background: grey;
+  border: 2px solid black;
+}
+
+.grid-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected {
+  background: green;
+}
+
+.unselected {
+  background: grey;
+}
